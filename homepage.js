@@ -5,6 +5,9 @@ $(document).ready(function(){
                var id = this.cells[0].innerHTML; //id = nome dell'attività
                var indirizzo = this.cells[2].innerHTML;
                alert("id:" + id);
+
+$(document).ready(function(){
+    /*var rows = document.getElementById("tabella").rows;
                alert("indirizzo: "+ indirizzo) */
                //var IDUtenteNonAutenticato = '1';
                var citta = 'Roma';
@@ -54,3 +57,4 @@ $(document).ready(function(){
 
 window.onload = addRowHandlers();  */
 });
+
