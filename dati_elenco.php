@@ -53,5 +53,3 @@
         echo json_encode($form_data);
 
 
-
-?>

@@ -1,10 +1,6 @@
+
 $(document).ready(function(){
     /*var rows = document.getElementById("tabella").rows;
-    for (i = 0; i < rows.length; i++) {
-        rows[i].onclick = function(){ return function(){
-               var id = this.cells[0].innerHTML; //id = nome dell'attività
-               var indirizzo = this.cells[2].innerHTML;
-               alert("id:" + id);
                alert("indirizzo: "+ indirizzo) */
                //var IDUtenteNonAutenticato = '1';
                var citta = 'Roma';
@@ -43,14 +39,3 @@ $(document).ready(function(){
                 else{
                     alert(return_data.posted);
                     }
-            });
-            ajaxRequest.fail(function(return_data){
-                alert("Errore con il server, riprovare!");
-            });
-            
-
-      /*  };}(rows[i]);
-    
-
-window.onload = addRowHandlers();  */
-});
